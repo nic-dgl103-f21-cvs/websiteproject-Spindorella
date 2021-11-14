@@ -1,0 +1,90 @@
+/* Header and Navigation */
+
+header {
+  background-color: #333333;
+}
+* {
+    box-sizing: border-box;
+  }
+
+/* start navigation */
+
+nav {
+  background-color: #f3f3f4;
+}
+nav .wrapper {
+  width: 800px;
+  margin: auto;
+}
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: #191645;
+}
+
+nav li a:hover {
+  background-color: pink;
+  color: white;
+}
+/* end navigation */
+
+/* Main */
+.hero {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+
+  /* Background Image */
+background-image: url(images/fern-hero.png);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.hero h1 {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero .btn {
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: pink;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f3f3f4;
+}
+
+main {
+    text-align: center;
+}
+
+.quotes
