@@ -5,8 +5,34 @@
     <title>Home Page</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <style>
+.flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between
+  }
+  
+.flex-item {
+    padding: 15px;
+    border: 3px solid pink;
+    border-radius: 7px;
+    margin: 15px;
+    text-align: center;
+    width: 300px;
+}
+  
+.item1 {
+    background-color: #cbcbcf;
+  }
 
+.item2 {
+    background-color: #cbcbcf;
+  }
+  
+.item3 {
+    background-color: #cbcbcf;
+}
     </style>
   </head>
   <body>
@@ -25,17 +51,56 @@
         </ul>
       </div>
     </nav>
-      <secton class="hero">
+    <main> 
+    <br> 
+      <section class="hero">
         <div class="hero-home">
             <h1>CANA Landscaping</h1>
             <a href="services.html" class="btn">What we offer!</a>
         </div>
-      </secton>
-      <main> 
+      </section>
+      <section> 
       <h2>What is CANA Landscaping?</h2>
       <p>We are a locally owned and operated small landscaping business from Campbell River, BC. We take pride in creating beautiful, low-maintenance outdoor spaces for you to enjoy! </p>
+
+      <br class="flex-container">
+        <div class="flex-item item1" >
+          <p>"Cana Landscaping transformed my yard from a pile of mud into a welcoming comfortable appealing space. A fabulous combination of vision and artistry and hard work at a really affordable price. Love this business. I highly recommend it. Will use again!"</p>
+         
+          <p><i>- Kathy H. </i></p>
+        </div>
       
-    </main>
+        <div class="flex-item item2">
+          <p>
+            "Larissa came to my home and helped me with tidying up my back yard. The weeds were out of control, my pond had been taken over and generally everything in disarray because of the dogs and weather coupled by my inability to tend the yard thanks to surgery.  She arrived on time and got to work. She was professional and polite to the family and of course all the dogs (3)!  Thanks to all her hard work I can stand to be in the yard again. It looks so clean and tidy.  Larissa took all the yard waste with her so I didn’t have to deal with it. Thanks again, we are so impressed with your service. I highly recommend CANA for all your landscaping needs.""
+          </p>
+        
+          <p><i>- Sherry D.</i></p>
+        </div>
+      
+        <div class="flex-item item3">
+         <p>
+            "Hardworking and professional!  Larissa listened to what I was looking for and created a beautiful front yard landscape.  Re-shaped the gardens, cleaned up the overgrown plants, and added a nice visual flow which opened up the area.  Very happy with the results!""
+         </p>
+         <p><i>- Kyla L.</i></p>
+        </div>
+        </section>
+        <br>
+        <a href="contact.html" class="btn"> Contact Us!</a> 
+    </br>
+    <div class="fa"> 
+    <ul>  
+        <li>
+            <a href="https://www.facebook.com/cana.landscaping/reviews/?ref=page_internal" class="fa fa-facebook"></a>
+        </li>  
+        <li>
+            <a href="https://www.instagram.com/cana.landscaping/?hl=en" class="fa fa-instagram"></a>
+        </li>  
+    </ul>
+</div>
+</main>
+<footer>
+    <div class="wrapper">All Rights Reserved CANA Landscaping</div>
+  </footer>
   </body>
-  <footer></footer>
 </html>

@@ -3,8 +3,31 @@
 header {
   background-color: #333333;
 }
+header img {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+}
+header ul {
+    font-family: sans-serif;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+
+}
+header li {
+    padding: 15px;
+    display:inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
   }
 
 /* start navigation */
@@ -80,11 +103,66 @@ background-attachment: fixed;
 body {
   margin: 0;
   font-family: sans-serif;
-  background-color: #f3f3f4;
+  background-color:white;
 }
 
 main {
     text-align: center;
 }
 
-.quotes
+
+footer {
+    background-color: #333333;
+    color: white;
+  }
+
+footer .wrapper {
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+  }
+  /* Home Page */
+
+.btn {
+    display: flex;
+    flex-direction: row;
+justify-content: center;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: pink;
+}
+/* Social Media Buttons */
+.fa {  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;  
+  text-align: center;  
+    margin: 5px 2px;  
+    font-size: 30px;  
+    width: 50px;  
+  }  
+
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }
+
+.fa:hover {  
+    opacity: 0.9;  
+}  
