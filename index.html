@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <style>
+
 .flex-container {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between
+    justify-content: space-around;
   }
   
 .flex-item {
+    justify-content: space-between;
     padding: 15px;
     border: 3px solid pink;
     border-radius: 7px;
     margin: 15px;
     text-align: center;
-    width: 300px;
+    width: 30vw;
 }
   
 .item1 {
@@ -35,16 +37,16 @@
 }
     </style>
   </head>
-  <body>
+  <body> 
     <header>
-      <a href="home.html">
+      <a href="index.html">
         <img src="images/logo-black.png" alt="CANA logo" width="100" />
       </a>
     </header>
     <nav>
       <div class="wrapper">
         <ul>
-          <li><a href="home.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -62,8 +64,10 @@
       <section> 
       <h2>What is CANA Landscaping?</h2>
       <p>We are a locally owned and operated small landscaping business from Campbell River, BC. We take pride in creating beautiful, low-maintenance outdoor spaces for you to enjoy! </p>
-
-      <br class="flex-container">
+<br>
+      </section> 
+        <h2>What our clients have to say:</h2>
+      <div class="flex-container">
         <div class="flex-item item1" >
           <p>"Cana Landscaping transformed my yard from a pile of mud into a welcoming comfortable appealing space. A fabulous combination of vision and artistry and hard work at a really affordable price. Love this business. I highly recommend it. Will use again!"</p>
          
@@ -84,7 +88,7 @@
          </p>
          <p><i>- Kyla L.</i></p>
         </div>
-        </section>
+      </div>
         <br>
         <a href="contact.html" class="btn"> Contact Us!</a> 
 
@@ -98,9 +102,9 @@
         </li>  
     </ul>
 </div>
-</main>
+     </main>
 <footer>
     <div class="wrapper">All Rights Reserved CANA Landscaping</div>
   </footer>
-  </body>
+</body>
 </html>
