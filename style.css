@@ -338,8 +338,16 @@ justify-content: center;
     }
     .profile-image {
       justify-content: flex-start;
+          flex: 1;
+  height: 40rem;
+    background-image: url(images/larissa.png);
+    background-size: cover;
+    background-position-y: 56%;
+    /* width: 1120px; */
+    background-color: aqua;
     }
     .profile-about {
-      justify-content: last baseline;
+      flex:1;
+      margin-top: 10rem;
       color: white;
     }
