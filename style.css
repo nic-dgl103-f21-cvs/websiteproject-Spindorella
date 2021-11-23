@@ -178,3 +178,136 @@ justify-content: center;
 .fa:hover {  
     opacity: 0.9;  
 }  
+
+/* Contact Page */
+/* STYLES ----------------------------------
+1. Global settings (resets such as border-box)
+2. Typography (headings, paragraphs, lists, buttons)
+3. Layout structure (body, header, footer, sidebar)
+4. Content blocks (cards, tables, forms, calls-to-action block)
+5. General classes (.clear, .center, .right, .left, .big-margin, etc.)
+6. Page-specific (styles specific to individual locations)
+-----------------------------------------------------*/
+
+/* ===============
+   GLOBAL SETTINGS
+   =============== */
+
+   * {
+    box-sizing: border-box;
+  }
+  
+  /* ===============
+     TYPOGRAPHY
+     =============== */
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  /* ===============
+     BUTTONS
+     =============== */
+  
+  input[type="reset"] {
+    background-color: white;
+    color: pink;
+    padding: 12px 20px;
+    border: 1px solid pink;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="reset"]:hover {
+    background-color: #ffe6ea;
+    color: #333333;
+  }
+  
+  input[type="submit"] {
+    background-color: pink;
+    color: #333333;
+    padding: 12px 20px;
+    border: 1px solid pink;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color:#ffe6ea;
+    color: #333333;
+
+  }
+  
+  /* ===============
+     STRUCTURE
+     =============== */
+  
+  .wrapper-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 1;
+  }
+  
+  .wrapper-button {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* ===============
+     FORM CONTROLS
+     =============== */
+  
+  input,
+  select,
+  textarea {
+    font-size: 1em;
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  textarea {
+    font-family: sans-serif;
+  }
+  
+  fieldset {
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .label-required {
+    font-size: 0.8rem;
+    color: red;
+  }
+  
+  .label-preferred {
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+  .interest {
+    font-size: 1.2rem;
+    padding: 1;
+    margin-top: 10px;
+  }
