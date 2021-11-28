@@ -3,6 +3,7 @@
 
 header {
   background-color: #333333;
+  background-image: url(images/fern-hero.png);
 }
 header img {
     display: flex;
@@ -64,25 +65,18 @@ nav li a:hover {
 /* end navigation */
 
 /* Main */
-.hero {
-  width: 100vw;
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
 
-  /* Background Image */
-background-image: url(images/fern-hero.png);
-background-size: cover;
-background-position: center center;
-background-repeat: no-repeat;
-background-attachment: fixed;
+h2 {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+p {
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .hero h1 {
-    font-size: 5em;
+  font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 6em;
+    font-weight: 700;
     margin-top: 0;
     margin-bottom: 0.5em;
 }
@@ -325,10 +319,7 @@ justify-content: center;
       background-color:#333333;
       color: white;
     }
-
-    .map-item1 {
-      ;
-    }
+    /* About Us Page */
 
     .profile {
       display:flex;
@@ -339,15 +330,45 @@ justify-content: center;
     .profile-image {
       justify-content: flex-start;
           flex: 1;
-  height: 40rem;
-    background-image: url(images/larissa.png);
-    background-size: cover;
-    background-position-y: 56%;
+      height: 40rem;
+      background-image: url(images/larissa.png);
+      background-size: cover;
+      background-position-y: 56%;
     /* width: 1120px; */
     background-color: aqua;
     }
     .profile-about {
       flex:1;
-      margin-top: 10rem;
+      margin-top: 15rem;
       color: white;
     }
+
+        /* Services Page */
+
+        .services {
+          display: flex;
+          flex-direction: row;
+          background-color: #333333;
+          justify-content: space-between;
+        }
+
+        .services-lawn1 {
+          justify-content: flex-start;
+              flex: 1;
+          height: 40rem;
+          background-image: url(images/mower.jpg);
+          background-size: cover;
+          background-position-y: 56%;
+        /* width: 1120px; */
+        ;
+        }
+        .services-lawn2 {
+          justify-content: flex-start;
+              flex: 1;
+          height: 40rem;
+          background-image: url(images/mower.jpg);
+          background-size: cover;
+          background-position-y: 56%;
+        /* width: 1120px; */
+        ;
+        }

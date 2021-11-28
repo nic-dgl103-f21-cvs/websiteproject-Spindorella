@@ -6,7 +6,34 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
     <style>
+      .hero {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+
+  /* Background Image */
+background-image: url(images/fern-hero.png);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
 
 .flex-container {
     display: flex;
@@ -35,12 +62,35 @@
 .item3 {
     background-color: #cbcbcf;
 }
+.home-cana {
+  display:flex;
+  background-color: #333333;
+  background-image: url(images/home-image.png);
+  background-size: cover;
+  height: 1200px;
+  margin: 0;
+  padding: 0;
+  
+}
+.home-cana img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  width: 50%;
+}
     </style>
   </head>
   <body> 
     <header>
       <a href="index.html">
-        <img src="images/logo-black.png" alt="CANA logo" width="100" />
+        <img src="images/canalogo.png" alt="CANA logo" width="100" />
       </a>
     </header>
     <nav>
@@ -54,10 +104,12 @@
       </div>
     </nav>
     <main> 
-    <br> 
+  <div class="home-cana"> 
+    <img src="images/Logo_cana-wht.png" alt="Cana Landscaping" class="center">
+  </div>
       <section class="hero">
         <div class="hero-home">
-            <h1>CANA Landscaping</h1>
+          
             <a href="services.html" class="btn">What we offer!</a>
         </div>
       </section>
@@ -104,7 +156,7 @@
 </div>
      </main>
 <footer>
-    <div class="wrapper">All Rights Reserved CANA Landscaping</div>
+    <div class="wrapper">This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner</div>
   </footer>
 </body>
 </html>
