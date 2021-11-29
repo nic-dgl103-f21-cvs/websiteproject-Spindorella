@@ -1,36 +1,36 @@
 /* Header and Navigation */
 
-
 header {
   background-color: #333333;
-  background-image: url(images/fern-hero.png);
+  background-image: url(images/fronds.jpg);
+  background-position-y: 30%;
 }
 header img {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: left;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: left;
+  padding: 10px;
 }
 header ul {
-    font-family: sans-serif;
-    display: flex;
-    flex-flow: row nowrap;
-    list-style-type: none;
-    justify-content: right;
-    margin: 0;
-    padding: 0;
-
+  font-family: sans-serif;
+  display: flex;
+  flex-flow: row nowrap;
+  list-style-type: none;
+  justify-content: right;
+  margin: 0;
+  padding: 0;
 }
 header li {
-    padding: 15px;
-    display:inline-block;
-    text-decoration: none;
-    list-style-type: none;
-    color: white;
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
 }
 * {
-    box-sizing: border-box;
-    font-family: sans-serif;
-  }
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
 
 /* start navigation */
 
@@ -43,12 +43,12 @@ nav .wrapper {
   margin: auto;
 }
 nav ul {
-    display: flex;
-    flex-flow: row nowrap;
-    list-style-type: none;
-    justify-content: space-around;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
 }
 
 nav li a {
@@ -67,112 +67,113 @@ nav li a:hover {
 /* Main */
 
 h2 {
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 2.6rem;
+  color: #333333;
 }
 p {
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans", sans-serif;
+  color: #333333;
 }
 
 .hero h1 {
-  font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 6em;
-    font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 0.5em;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 6em;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0.5em;
 }
 
 .hero .btn {
-    display: block;
-    width: 200px;
-    padding: 1em;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-    border: 3px solid pink;
-    border-radius: 20px;
-    background-color: pink;
+  display: block;
+  width: 200px;
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  border: 3px solid pink;
+  border-radius: 20px;
+  background-color: pink;
 }
 
 body {
   margin: 0;
   font-family: sans-serif;
-  background-color:white;
+  background-color: white;
 }
 
 main {
-    text-align: center;
+  text-align: center;
 }
-
 
 footer {
-    background-color: #333333;
-    color: white;
-  }
+  background-color: #333333;
+  color: white;
+}
 
 footer .wrapper {
-    width: 800px;
-    margin: auto;
-    padding: 15px;
-  }
-  /* Home Page */
+  width: 800px;
+  margin: auto;
+  padding: 15px;
+}
+/* Home Page */
 
 .btn {
-    display: flex;
-    flex-direction: row;
-justify-content: center;
-    width: 200px;
-    padding: 1em;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    color:#333333;
-    text-decoration: none;
-    font-size: 1.5em;
-    border: 3px solid pink;
-    border-radius: 20px;
-    background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 200px;
+  padding: 1em;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  text-decoration: none;
+  font-size: 1.5em;
+  border: 3px solid pink;
+  border-radius: 20px;
+  background-color: pink;
 }
 .btn:hover {
-    background-color: #ffe6ea;
-    color: #333333;
+  background-color: #ffe6ea;
+  color: #333333;
 }
 /* Social Media Buttons */
-.fa {  
-        padding: 20px;
-        font-size: 30px;
-        width: 50px;
-        text-align: center;
-        text-decoration: none;
-        justify-content: center;
- 
-  }  
-.fa ul {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
 }
-  .fa ul li {
-      text-decoration: none;
-      list-style-type: none;
-      flex-flow: row nowrap;
-  }
+.fa ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.fa ul li {
+  text-decoration: none;
+  list-style-type: none;
+  flex-flow: row nowrap;
+}
 
-  .fa-facebook {  
-    background: #3B5998;  
-    color: white;  
-  }  
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
 
-  .fa-instagram {  
-    background: #125688;  
-    color: white;  
-  }
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
 
-.fa:hover {  
-    opacity: 0.9;  
-}  
+.fa:hover {
+  opacity: 0.9;
+}
 
 /* Contact Page */
 /* STYLES ----------------------------------
@@ -188,187 +189,207 @@ justify-content: center;
    GLOBAL SETTINGS
    =============== */
 
-   * {
-    box-sizing: border-box;
-  }
-  
-  /* ===============
+* {
+  box-sizing: border-box;
+}
+
+/* ===============
      TYPOGRAPHY
      =============== */
-  
-  body {
-    font-family: sans-serif;
-  }
-  
-  /* ===============
+
+body {
+  font-family: sans-serif;
+}
+
+/* ===============
      BUTTONS
      =============== */
-  
-  input[type="reset"] {
-    background-color: white;
-    color: pink;
-    padding: 12px 20px;
-    border: 1px solid pink;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type="reset"]:hover {
-    background-color: #ffe6ea;
-    color: #333333;
-  }
-  
-  input[type="submit"] {
-    background-color: pink;
-    color: #333333;
-    padding: 12px 20px;
-    border: 1px solid pink;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color:#ffe6ea;
-    color: #333333;
 
-  }
-  
-  /* ===============
+input[type="reset"] {
+  background-color: white;
+  color: pink;
+  padding: 12px 20px;
+  border: 1px solid pink;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: #ffe6ea;
+  color: #333333;
+}
+
+input[type="submit"] {
+  background-color: pink;
+  color: #333333;
+  padding: 12px 20px;
+  border: 1px solid pink;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffe6ea;
+  color: #333333;
+}
+
+/* ===============
      STRUCTURE
      =============== */
-  
-  .wrapper-form {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    margin-top: 1;
-  }
-  
-  .wrapper-button {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  /* ===============
+
+.wrapper-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 1;
+}
+
+.wrapper-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ===============
      FORM CONTROLS
      =============== */
-  
-  input,
-  select,
-  textarea {
-    font-size: 1em;
-  }
-  
-  input[type="text"],
-  select,
-  textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type="email"] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  textarea {
-    font-family: sans-serif;
-  }
-  
-  fieldset {
-    margin-bottom: 16px;
-    border: 1px solid #ccc;
-  }
-  
-  .label-required {
-    font-size: 0.8rem;
-    color: red;
-  }
-  
-  .label-preferred {
-    font-size: 0.9rem;
-    font-style: italic;
-  }
-  .interest {
-    font-size: 1.2rem;
-    padding: 1;
-    margin-top: 10px;
-  }
 
-   /* ===============
+input,
+select,
+textarea {
+  font-size: 1em;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea {
+  font-family: sans-serif;
+}
+
+fieldset {
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+}
+
+.label-required {
+  font-size: 0.8rem;
+  color: red;
+}
+
+.label-preferred {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+.interest {
+  font-size: 1.2rem;
+  padding: 1;
+  margin-top: 10px;
+}
+
+/* ===============
      CONTENT BLOCK
      =============== */
 
-     /* Google Maps */
+/* Google Maps */
 
-     .map {
-      display: flex;
-      columns: 3;
-      background-color:#333333;
-      color: white;
-    }
-    /* About Us Page */
+.map {
+  display: flex;
+  flex-direction: column;
+  columns: 3;
+  background-color: #333333;
+  color: white;
+}
+.map-item1 {
+  column: 1;
+  justify-content: flex-start;
+}
 
-    .profile {
-      display:flex;
-      flex-direction: row;
-      background-color: #333333;
-      justify-content: space-between;
-    }
-    .profile-image {
-      justify-content: flex-start;
-          flex: 1;
-      height: 40rem;
-      background-image: url(images/larissa.png);
-      background-size: cover;
-      background-position-y: 56%;
-    /* width: 1120px; */
-    background-color: aqua;
-    }
-    .profile-about {
-      flex:1;
-      margin-top: 15rem;
-      color: white;
-    }
+.map-item2 {
+  column: 2;
+  color: white;
 
-        /* Services Page */
+}
+/* About Us Page */
 
-        .services {
-          display: flex;
-          flex-direction: row;
-          background-color: #333333;
-          justify-content: space-between;
-        }
+.profile {
+  display: flex;
+  flex-direction: row;
+  background-color: #333333;
+  justify-content: space-between;
+}
+.profile-image {
+  justify-content: flex-start;
+  flex: 1;
+  height: 40rem;
+  background-image: url(images/larissa.png);
+  background-size: cover;
+  background-position-y: 56%;
+  /* width: 1120px; */
+  background-color: aqua;
+}
+.profile-about {
+  flex: 1;
+  margin-top: 15rem;
+  color: white;
+}
 
-        .services-lawn1 {
-          justify-content: flex-start;
-              flex: 1;
-          height: 40rem;
-          background-image: url(images/mower.jpg);
-          background-size: cover;
-          background-position-y: 56%;
-        /* width: 1120px; */
-        ;
-        }
-        .services-lawn2 {
-          justify-content: flex-start;
-              flex: 1;
-          height: 40rem;
-          background-image: url(images/mower.jpg);
-          background-size: cover;
-          background-position-y: 56%;
-        /* width: 1120px; */
-        ;
-        }
+/* Services Page */
+
+.services {
+  display: flex;
+  flex-direction: row;
+  background-color: #333333;
+  justify-content: space-between;
+}
+
+.services-lawn1 {
+  justify-content: flex-start;
+  flex: 1;
+  height: 40rem;
+  background-image: url(images/mower.jpg);
+  background-size: cover;
+  background-position-y: 56%;
+  /* width: 1120px; */
+}
+.services-lawn2 {
+  flex: 1;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+.services-fall1 {
+  flex:1;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.services-fall2{
+  justify-content: flex-end;
+  flex: 1;
+  height: 40rem;
+  background-image: url(images/fall.jpg);
+  background-size: cover;
+  background-position-y: 56%;
+  /* width: 1120px; */
