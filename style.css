@@ -1,3 +1,23 @@
+
+/* TABLE OF CONTENT ----------------------------------
+1. Global settings (resets such as border-box)
+2. Header and Navigation
+3. Main Elements (Main, Footer, Social Media)
+4. Home Page
+5. Contact Page (Form Controls, Google Maps)
+6. About Us Page
+7. Services Page
+-----------------------------------------------------*/
+
+/* ===============
+   GLOBAL SETTINGS
+   =============== */
+
+* {
+  box-sizing: border-box;
+  transition: all .2s ease-in-out;
+}
+
 /* Header and Navigation */
 
 header {
@@ -27,6 +47,7 @@ header li {
   list-style-type: none;
   color: white;
 }
+
 * {
   box-sizing: border-box;
   font-family: "PT Sans", sans-serif;
@@ -109,8 +130,48 @@ main {
   text-align: center;
 }
 
+/* Social Media Buttons */
+.fa {
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+}
+.fa ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.fa ul li {
+  text-decoration: none;
+  list-style-type: none;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
 footer {
   background-color: #333333;
+  color: white;
+}
+footer ul {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style-type: none;
+  justify-content: space-around;
+  margin-left: 20em;
+  margin-right: 20em;
+  padding: 0;
+}
+footer li a {
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: #white;
+}
+footer li a:hover {
+  background-color: pink;
   color: white;
 }
 
@@ -136,74 +197,18 @@ footer .wrapper {
   border: 3px solid pink;
   border-radius: 20px;
   background-color: pink;
+  cursor: pointer;
 }
 .btn:hover {
   background-color: #ffe6ea;
   color: #333333;
 }
-/* Social Media Buttons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  justify-content: center;
-}
-.fa ul {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-}
-.fa ul li {
-  text-decoration: none;
-  list-style-type: none;
-  flex-flow: row nowrap;
-}
-
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa:hover {
-  opacity: 0.9;
-}
 
 /* Contact Page */
-/* STYLES ----------------------------------
-1. Global settings (resets such as border-box)
-2. Typography (headings, paragraphs, lists, buttons)
-3. Layout structure (body, header, footer, sidebar)
-4. Content blocks (cards, tables, forms, calls-to-action block)
-5. General classes (.clear, .center, .right, .left, .big-margin, etc.)
-6. Page-specific (styles specific to individual locations)
------------------------------------------------------*/
-
-/* ===============
-   GLOBAL SETTINGS
-   =============== */
-
-* {
-  box-sizing: border-box;
-}
-
-/* ===============
-     TYPOGRAPHY
-     =============== */
 
 body {
   font-family: sans-serif;
 }
-
-/* ===============
-     BUTTONS
-     =============== */
 
 input[type="reset"] {
   background-color: white;
@@ -233,10 +238,6 @@ input[type="submit"]:hover {
   color: #333333;
 }
 
-/* ===============
-     STRUCTURE
-     =============== */
-
 .wrapper-form {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -250,10 +251,6 @@ input[type="submit"]:hover {
   display: flex;
   justify-content: space-between;
 }
-
-/* ===============
-     FORM CONTROLS
-     =============== */
 
 input,
 select,
@@ -307,29 +304,38 @@ fieldset {
   margin-top: 10px;
 }
 
-/* ===============
-     CONTENT BLOCK
-     =============== */
-
 /* Google Maps */
 
 .map {
   display: flex;
   flex-direction: column;
-  columns: 3;
+  columns: 2;
   background-color: #333333;
+  background-image:url(images/fronds.jpg);
+  background-position-y: 30%;
+  background-attachment: fixed;
   color: white;
 }
 .map-item1 {
   column: 1;
-  justify-content: flex-start;
+  justify-content: center;
+  align-content: center;
 }
 
 .map-item2 {
   column: 2;
   color: white;
-
 }
+
+.map-item2 ul {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+a {
+  color: inherit;
+}
+
 /* About Us Page */
 
 .profile {
