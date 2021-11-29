@@ -90,6 +90,8 @@ background-attachment: fixed;
       </a>
     </header>
     <nav>
+      <div class="menu-label">Menu</div>
+      <ul id="nav-items">
       <div class="wrapper">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -98,6 +100,7 @@ background-attachment: fixed;
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
+      <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
     </nav>
     <main> 
   <div class="home-cana"> 
@@ -155,5 +158,12 @@ background-attachment: fixed;
 <footer>
     <div class="wrapper">This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner</div>
   </footer>
+
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
 </body>
 </html>

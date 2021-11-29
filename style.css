@@ -3,7 +3,7 @@
 header {
   background-color: #333333;
   background-image: url(images/fronds.jpg);
-  background-position-y: 30%;
+  background-position-y: 90%;
 }
 header img {
   display: flex;
@@ -362,6 +362,24 @@ fieldset {
   background-color: #333333;
   justify-content: space-between;
 }
+.services-land1{
+  flex:1;
+  justify-content: center;
+  align-content: center;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.services-land2{
+  justify-content: flex-end;
+  flex: 1;
+  height: 40rem;
+  background-image: url(images/landscape.jpg);
+  background-size: cover;
+  background-position-y: 56%;
+}
+
 
 .services-lawn1 {
   justify-content: flex-start;
@@ -391,5 +409,53 @@ fieldset {
   height: 40rem;
   background-image: url(images/fall.jpg);
   background-size: cover;
-  background-position-y: 56%;
+  background-position-y: 56%;}
+
+  .services-hedge1 {
+    justify-content: flex-start;
+    flex: 1;
+    height: 40rem;
+    background-image: url(images/hedge.jpg);
+    background-size: cover;
+    background-position-y: 56%;
+    /* width: 1120px; */
+  }
+  .services-hedge2 {
+    flex: 1;
+    font-size: 2rem;
+    text-align: center;
+    color: white;}
   /* width: 1120px; */
+
+
+.services-mulch1 {
+  flex:1;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.services-mulch2{
+  justify-content: flex-end;
+  flex: 1;
+  height: 40rem;
+  background-image: url(images/dirt.jpg);
+  background-size: cover;
+  background-position-y: 56%;}
+
+
+  .services-garden1 {
+    justify-content: flex-start;
+    flex: 1;
+    height: 40rem;
+    background-image: url(images/garden.jpg);
+    background-size: cover;
+    background-position-y: 56%;
+    /* width: 1120px; */
+  }
+  .services-garden2 {
+    flex: 1;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+  }
