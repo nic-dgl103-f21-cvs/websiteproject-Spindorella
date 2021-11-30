@@ -148,7 +148,11 @@ main {
   justify-content: space-around;
 }
 
-.fa:hover {
+.fa .facebook:hover {
+  opacity: 0.5;
+} 
+
+.fa .instagram:hover {
   opacity: 0.5;
 }
 footer {
@@ -165,7 +169,7 @@ footer ul {
   padding: 0;
 }
 footer li a {
-  padding: 15px;
+  padding: 10px;
   display: inline-block;
   text-decoration: none;
   color: #white;
@@ -370,6 +374,31 @@ a {
   text-align: center;
   color:#333333;
 }
+.profile-cana {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-size: 1.6em;
+  text-align: center;
+  color: #333333;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+.profile-image2 {
+  justify-content: flex-end;
+  flex: 1;
+  height: 40rem;
+  background-image: url(images/seed.jpg);
+  background-size: cover;
+  background-position-y: 30%;
+}
+
 
 /* Services Page */
 
@@ -381,10 +410,11 @@ a {
 }
 .services-land1 {
   flex: 1;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-align: center;
   color: #333333;
 }
@@ -408,14 +438,22 @@ a {
   /* width: 1120px; */
 }
 .services-lawn2 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
   flex: 1;
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-align: center;
   color: #333333;
 }
 .services-fall1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
   flex: 1;
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-align: center;
   color: #333333;
 }
@@ -439,16 +477,24 @@ a {
   /* width: 1120px; */
 }
 .services-hedge2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
   flex: 1;
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-align: center;
   color: #333333;
 }
 /* width: 1120px; */
 
 .services-mulch1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
   flex: 1;
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-align: center;
   color:#333333;
 }
@@ -472,8 +518,12 @@ a {
   /* width: 1120px; */
 }
 .services-garden2 {
+  display: flex;
+  flex-direction: column;
   flex: 1;
-  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
   text-align: center;
   color: #333333;
 }
