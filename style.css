@@ -44,7 +44,7 @@ header li {
   display: inline-block;
   text-decoration: none;
   list-style-type: none;
-  color: white;
+  color: #FFFFFF
 }
 
 * {
@@ -80,7 +80,7 @@ nav li a {
 
 nav li a:hover {
   background-color: pink;
-  color: white;
+  color: #FFFFFF;
 }
 /* end navigation */
 
@@ -111,7 +111,7 @@ p {
   padding: 1em;
   margin-left: auto;
   margin-right: auto;
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
   font-family: 'Bebas Neue', cursive;
   font-size: 2em;
@@ -123,7 +123,7 @@ p {
 body {
   margin: 0;
   font-family: sans-serif;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 main {
@@ -157,7 +157,7 @@ main {
 }
 footer {
   background-color: #333333;
-  color: white;
+  color: #FFFFFF;
 }
 footer ul {
   display: flex;
@@ -172,12 +172,12 @@ footer li a {
   padding: 10px;
   display: inline-block;
   text-decoration: none;
-  color: #white;
+  color: #FFFFFF;
 }
 
 footer li a:hover {
   background-color: pink;
-  color: white;
+  color: #FFFFFF;
 }
 
 footer .wrapper {
@@ -217,7 +217,7 @@ body {
 }
 
 input[type="reset"] {
-  background-color: white;
+  background-color: #FFFFFF;
   font-family: 'Bebas Neue', cursive;
   font-size: 2em;
   color: pink;
@@ -254,7 +254,7 @@ input[type="submit"]:hover {
   padding: 20px;
   max-width: 800px;
   margin: 0 auto;
-  margin-top: 1;
+  margin-top: 1px;
 }
 
 .wrapper-button {
@@ -310,7 +310,7 @@ fieldset {
 }
 .interest {
   font-size: 1.2rem;
-  padding: 1;
+  padding: 1px;
   margin-top: 10px;
 }
 
@@ -319,28 +319,28 @@ fieldset {
 .map {
   display: flex;
   flex-direction: column;
-  columns: 2;
   background-color: #333333;
   background-image: url(images/fronds.jpg);
   background-position-y: 30%;
   background-attachment: fixed;
-  color: white;
+  color: #FFFFFF;
 }
 .map-item1 {
-  column: 1;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
 }
 
 .map-item2 {
-  column: 2;
-  color: white;
+  display: flex;
+  flex-direction: column;
+  color:#FFFFFF;
 }
 
 .map-item2 ul {
   text-decoration: none;
   list-style-type: none;
-  color: white;
+  color: #FFFFFF;
 }
 a {
   color: inherit;
